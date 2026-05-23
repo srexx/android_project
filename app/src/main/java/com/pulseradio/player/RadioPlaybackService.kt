@@ -1,5 +1,13 @@
 package com.pulseradio.player
 
+import android.app.Service
+import android.content.Intent
+import android.os.IBinder
+
+class RadioPlaybackService : Service() {
+    override fun onBind(intent: Intent?): IBinder? = null
+}
+
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
