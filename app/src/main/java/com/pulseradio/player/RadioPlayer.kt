@@ -1,5 +1,10 @@
 package com.pulseradio.player
 
+class RadioPlayer {
+    fun play(url: String) {}
+    fun pause() {}
+    fun stop() {}
+}
 import android.content.Context
 import android.content.Intent
 import android.os.Build
